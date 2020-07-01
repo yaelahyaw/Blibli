@@ -21,6 +21,10 @@ import Logo17 from "../assets/img/customer.jpg";
 import Logo18 from "../assets/img/delivery.png";
 import Logo19 from "../assets/img/100.png";
 import Logo20 from "../assets/img/box.png";
+import Logo21 from "../assets/img/truck.png";
+import Logo22 from "../assets/img/pay.png";
+import Logo23 from "../assets/img/phone.png";
+
 import { getDefaultNormalizer } from "@testing-library/react";
 export default function Hero() {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
@@ -224,7 +228,7 @@ export default function Hero() {
               style={{ padding: "5px", textDecoration: "none", color: "black" }}
             >
               <img src={Logo10} alt="enpon" style={{padding: "5px", width: "25px", height: "25px", alignItems: "center", lineHeight: "1.14", WebkitBoxAlign: "center", marginLeft: "-5px", marginBottom: "-18px", marginRight: "10px", textAlign: "center", justifyContent: "center"}}/>
-              Handphone &Tablet
+              Handphone
             </a>
           </div>
           <div
@@ -264,7 +268,7 @@ export default function Hero() {
               style={{ padding: "5px", textDecoration: "none", color: "black" }}
             >
               <img src={Logo11} alt="ticket" style={{padding: "5px", width: "25px", height: "25px", alignItems: "center", lineHeight: "1.14", WebkitBoxAlign: "center", marginLeft: "-5px", marginBottom: "-12px", marginRight: "10px", textAlign: "center", justifyContent: "center"}} />
-              Ticket & Voucher
+              Ticket 
             </a>
           </div>
           <div
@@ -304,7 +308,7 @@ export default function Hero() {
               style={{ padding: "5px", textDecoration: "none", color: "black" }}
             >
             <img src={Logo13} alt="sofa" style={{padding: "5px", width: "25px", height: "25px", alignItems: "center", lineHeight: "1.14", WebkitBoxAlign: "center", marginLeft: "-5px", marginBottom: "-15px", marginRight: "10px", textAlign: "center", justifyContent: "center"}}/>
-              Home & Living
+              Living
             </a>
           </div>
           <div
@@ -324,7 +328,7 @@ export default function Hero() {
               style={{ padding: "5px", textDecoration: "none", color: "black" }}
             >
               <img src={Logo14} alt="cntik" style={{padding: "5px", width: "25px", height: "25px", alignItems: "center", lineHeight: "1.14", WebkitBoxAlign: "center", marginLeft: "-5px", marginBottom: "-15px", marginRight: "10px", textAlign: "center", justifyContent: "center"}} />
-              Kesehatan & Kecantikan
+              Kesehatan
             </a>
           </div>
           <div
@@ -364,7 +368,7 @@ export default function Hero() {
               style={{ padding: "5px", textDecoration: "none", color: "black" }}
             >
               <img src={Logo16} alt="global" style={{padding: "5px", width: "25px", height: "25px", alignItems: "center", lineHeight: "1.14", WebkitBoxAlign: "center", marginLeft: "-5px", marginBottom: "-15px", marginRight: "15px", textAlign: "center", justifyContent: "center"}}/>
-              Global Collection
+              Global
             </a>
           </div>
         </ItemsCarousel>
@@ -387,11 +391,17 @@ export default function Hero() {
           <img src={Logo17} alt="customer" style={{width: "110px", height: "56px", borderRadius: "10px"}}/>
           <p style={{marginLeft: "110px", marginTop: "-50px", fontSize: "12px", }}>Customer</p>
           <p style={{fontSize: "1em", marginLeft: "110px", marginTop: "-15px", lineHeight: "5px"}} > Satisfaction # 1<img src={Logo18} style={{width: "25px", heigt: "15px", marginLeft: "30px", marginTop: "-5px"}} />
-          <img src={Logo19} alt="100" style={{width: "30px", height: "25px", marginLeft: "140px", marginTop: "-40%" }} />
-          <img src={Logo20} alt="box" style={{width: "40px", height: "30px", marginLeft: "130px", marginTop: "-20px"}} />
-         <p style={{marginTop: "-12px", marginLeft: "173px", fontSize: "14px"}}>Gratis Ongkir</p>
-         <p style={{marginTop: "-20px", marginLeft: "343px", fontSize: "14px"}}>100% Orisinil</p>
-         <p style={{marginTop: "-20px", marginLeft: "508px", fontSize: "14px"}}>15 Hari Retur</p>
+          <img src={Logo19} alt="100" style={{width: "30px", height: "25px", marginLeft: "120px", marginTop: "-40%" }} />
+          <img src={Logo20} alt="box" style={{width: "40px", height: "30px", marginLeft: "100px", marginTop: "-20px"}} />
+          <img src={Logo21} alt="box" style={{width: "40px", height: "30px", marginLeft: "110px", marginTop: "-20px"}} />
+          <img src={Logo22} alt="box" style={{width: "35px", height: "30px", marginLeft: "140px", marginTop: "-20px"}} />
+          <img src={Logo23} alt="box" style={{width: "35px", height: "30px", marginLeft: "150px", marginTop: "-20px"}} />
+         <p style={{marginTop: "-15px", marginLeft: "173px", fontSize: "14px"}}>Gratis Ongkir</p>
+         <p style={{marginTop: "-20px", marginLeft: "320px", fontSize: "14px"}}>100% Orisinil</p>
+         <p style={{marginTop: "-20px", marginLeft: "455px", fontSize: "14px"}}>15 Hari Retur</p>
+         <p style={{marginTop: "-20px", marginLeft: "615px", fontSize: "14px"}}>Pengiriman Cepat</p>
+         <p style={{marginTop: "-15px", marginLeft: "790px", fontSize: "14px"}}>Pembayaran Aman</p>
+         <p style={{marginTop: "-18px", marginLeft: "970px", fontSize: "14px"}}>Costumer Service</p>
          
          </p>
          
